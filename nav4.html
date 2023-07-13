@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+    src="https://kit.fontawesome.com/1f93242de2.js"
+    crossorigin="anonymous"
+  ></script>
+    <title>edyoda ass-2</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+<script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+</head>
+<body>
+    <container-fluid class="nav">
+        <div class="navbar" style="display: flex; background-color:white; width: 100%; height: 80px;">
+            <div>
+                <h1 style=" width: 130px; font-size: 32px; color: #0084ff; padding-left: 80px; padding-top: 10px;"><a href="./intex.html">EDYODA</a></h1>
+                <h6 style="font-weight: 500; font-style: italic; font: raleway; margin: 0; padding-left: 80px; padding-top: 1px; font-size: 20px;">stories</h6>
+            </div>
+
+            <div class="dropdown" style="margin-left: 50px; margin-top: 15px;">
+                <button onclick="myFunction()" class="dropbtn" >Explore Categories<i style="padding-left: 8px;" class="fa-sharp fa-solid fa-caret-down"></i></button>
+                <div id="myDropdown" class="dropdown-content">
+
+                  <a href="./nav1.html">Artificial Intelligence</a>
+                  <a href="./nav2.html">Cloud Computing</a>
+                  <a href="./nav3.html">DevOps</a>
+              <a href="./nav4.html">Programming Languages</a>
+              <a href="./nav5.html">Mobile Application Development</a>
+              <a href="./nav6.html">Technology And Tools</a>
+              <a href="./nav7.html">Get a JOB in a Tech Company</a>
+
+                </div>
+              </div>
+          </div>
+       </container-fluid>
+       <container-fluid class="nav" >
+        <div style="display: flex; background-color: rgb(228, 226, 223); padding-top: 120px;">
+          <h1 style=" width: 70px; font-size: 32px; color: #0084ff; padding-left: 60px;"><i class="fa fa-filter" aria-hidden="true"></i></h1> 
+      <h1 style="font-size: 14px; font-weight: 600; padding-top: 8px;">Filter By Category</h1>
+        </div>
+        <div class="" style="display: flex; background-color: rgb(228, 226, 223); width: 100%; height: 80px; padding-top: 10px; ">
+
+
+            <div class="dropdown" style="margin-left: 50px; margin-top: 15px;">
+              <a class="fill" href="./intex.html">All</a>
+                  <a class="fil" href="./nav1.html">Artificial Intelligence</a>
+                  <a class="fil" href="./nav2.html">Cloud Computing</a>
+                  <a class="fil" href="./nav3.html">DevOps</a>
+                  <a class="fil" href="./nav4.html">Programming Languages</a>
+                  <a class="fil" href="./nav5.html">Mobile Application Development</a>
+                  <a class="fil" href="./nav6.html">Technology And Tools</a>
+                  <a class="fil" href="./nav7.html">Get a JOB in a Tech Company</a>
+
+              </div>
+
+          </div>
+       </container-fluid>
+       <container-fluid>
+        <main id="container">
+
+            <div class="card">
+                <figure class="cardImage">
+                  <img
+                    src="https://edyoda.s3.amazonaws.com/media/blog-images/6.png"
+                    width="300"
+                    height="200"
+                  />
+                </figure>
+
+                <h1 class="cardTitle">
+                  Learn these Programming Languages in 2019
+                </h1>
+                <p class="cardPara">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, vitae
+                  recusandae? Quibusdam, assumenda eligendi! Enim nulla culpa, explicabo
+                  odio vitae accusantium in cumque assumenda dolorum repudiandae minima,
+                  asperiores reiciendis vel.
+                </p>
+              </div>
+              <div class="card">
+                <figure class="cardImage">
+                  <img
+                    src="https://edyoda.s3.amazonaws.com/media/blog-images/4.png"
+                    width="300"
+                    height="200"
+                  />
+                </figure>
+
+                <h1 class="cardTitle">
+                  A Primer on Python Programming Tutorial 
+                </h1>
+                <p class="cardPara">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, vitae
+                  recusandae? Quibusdam, assumenda eligendi! Enim nulla culpa, explicabo
+                  odio vitae accusantium in cumque assumenda dolorum repudiandae minima,
+                  asperiores reiciendis vel.
+                </p>
+              </div>
+
+          </main>
+       </container-fluid>
+</body>
+</html>

@@ -1,0 +1,96 @@
+
+
+.dropbtn {
+    padding-left: 42px;
+    padding-top: 18px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: black!important;
+  }
+  
+  
+  .dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    background-color:white;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 18rem;
+  
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .show {display: block;}
+  
+  #container {
+    background-color: rgb(228, 226, 223);
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .card {
+    width: 22%;
+    display: inline-block;
+    background-color:white;
+    border-radius: 15px;
+    margin: 20px;
+  }
+  
+  .cardImage img {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .cardTitle {
+    padding: 15px;
+    text-align:left;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .cardPara {
+    padding: 10px;
+    text-align:left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    color:rgba(0,0,0,0,.6); 
+  }
+  a{
+    text-decoration: none;
+    color: #0048ff;
+    margin-left: 25px;
+  }
+  .fil{
+        border:1px solid #0048ff ;
+        border-radius: 50px;
+        padding: 5px;
+      }
+  .fil:hover {
+      background-color: white;
+    }
+  .fill{
+      border:1px solid #0048ff ;
+      border-radius: 10px;
+      padding: 5px;
+      background-color: #0048ff;
+      color: white;
+  
+    }
+    .navbar{
+      position: -webkit-sticky;
+      position: fixed!important;
+    }
